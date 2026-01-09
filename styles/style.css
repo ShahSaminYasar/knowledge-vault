@@ -25,7 +25,7 @@ section {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .container {
@@ -71,6 +71,22 @@ img {
   background: #fff;
   color: #30b868;
 }
+
+.section-title {
+  display: block;
+  color: #001931;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+
+.section-description {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+}
 /* ============ COMMON STYLES END ============ */
 
 /* ============ HEADER STARTS ============ */
@@ -112,7 +128,7 @@ img {
 }
 /* ============ HEADER ENDS ============ */
 
-/* ============ BANNER STARTS ============ */
+/* ============ BANNER SECTION STARTS ============ */
 #banner {
   background: linear-gradient(rgba(0, 25, 49, 0.2), rgba(0, 25, 49, 0.2)),
     url("../assets/hero-bg.png");
@@ -145,6 +161,7 @@ img {
   gap: 6px;
   justify-content: center;
   align-items: center;
+  text-transform: capitalize;
 }
 
 .indicator {
@@ -181,6 +198,7 @@ img {
   font-size: 72px;
   font-weight: 700;
   color: #fff;
+  text-transform: capitalize;
 }
 .banner_title span {
   color: #30b868;
@@ -193,6 +211,7 @@ img {
   font-size: 18px;
   font-weight: 400;
   color: #fff;
+  line-height: 34px;
 }
 
 .banner_buttons {
@@ -203,4 +222,61 @@ img {
   gap: 16px;
   margin-top: 16px;
 }
-/* ============ BANNER ENDS ============ */
+/* ============ BANNER SECTION ENDS ============ */
+
+/* ============ NOTES SECTION STARTS ============ */
+#notes {
+  text-align: center;
+  background-color: #fbfbfb;
+}
+
+.note-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 44px;
+}
+
+.note-card {
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1/1;
+  padding: 24px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.note-card span {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: #f95555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #001931;
+}
+
+.note-card p {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* ============ NOTES SECTION ENDS ============ */
