@@ -51,8 +51,10 @@ img {
 }
 .button-primary:hover {
   background-color: #239753;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.18);
-  transform: scale(1.04);
+  box-shadow: 0px 0px 0px 5px rgba(48, 184, 104, 0.4);
+}
+.button-primary:active {
+  transform: scale(0.98);
 }
 
 .button-secondary {
@@ -73,7 +75,9 @@ img {
 .button-secondary:hover {
   background: #fff;
   color: #30b868;
-  transform: scale(1.04);
+}
+.button-secondary:active {
+  transform: scale(0.98);
 }
 
 .section-title {
@@ -329,7 +333,7 @@ img {
   font-weight: 500;
   line-height: 20px;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
 }
 
 .second-brain_feature-list li::before {
