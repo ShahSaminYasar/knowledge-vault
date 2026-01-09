@@ -51,6 +51,8 @@ img {
 }
 .button-primary:hover {
   background-color: #239753;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.18);
+  transform: scale(1.04);
 }
 
 .button-secondary {
@@ -71,6 +73,7 @@ img {
 .button-secondary:hover {
   background: #fff;
   color: #30b868;
+  transform: scale(1.04);
 }
 
 .section-title {
@@ -336,6 +339,7 @@ img {
   background: url("../assets/CheckCircle.png");
   background-size: cover;
   background-repeat: no-repeat;
+  flex-shrink: 0;
 }
 /* ============ SECOND BRAIN SECTION ENDS ============ */
 
