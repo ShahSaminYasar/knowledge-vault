@@ -4,6 +4,7 @@
   box-sizing: border-box;
   transition: all;
   transition-duration: 150ms;
+  scroll-behavior: smooth;
 }
 
 /* ============ COMMON STYLES START ============ */
@@ -374,3 +375,72 @@ img {
   color: #627382;
 }
 /* ============ EARLY ACCESS SECTION ENDS ============ */
+
+/* ============ FOOTER STARTS ============ */
+#footer {
+  background-color: #001931;
+  padding: 120px 120px 30px;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  color: #fff;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #2e4256;
+}
+
+.footer-socials span {
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.footer-socials .links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-socials .links a {
+  display: block;
+  background-color: #fff;
+  border-radius: 100%;
+  color: #001931;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-socials .links a:nth-child(1):hover {
+  background-color: #000;
+  color: #fff;
+}
+.footer-socials .links a:nth-child(2):hover {
+  background-color: #0b66c3;
+  color: #fff;
+}
+.footer-socials .links a:nth-child(3):hover {
+  background-color: #2d3891;
+  color: #fff;
+}
+
+.copyright-text {
+  display: block;
+  width: fit-content;
+  margin: 30px auto 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fafafa;
+  text-align: center;
+}
+/* ============ FOOTER ENDS ============ */
