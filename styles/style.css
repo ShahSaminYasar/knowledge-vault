@@ -4,9 +4,101 @@
   box-sizing: border-box;
 }
 
+/* ============ COMMON STYLES START ============ */
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background: #f1fdff;
 }
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  padding: 120px 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.button-primary {
+  width: fit-content;
+  background: #469165;
+  padding: 12px 16px;
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.button-secondary {
+  width: fit-content;
+  background: transparent;
+  padding: 12px 16px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+/* ============ COMMON STYLES END ============ */
+
+/* ============ HEADER STARTS ============ */
+#header {
+  width: 100%;
+  padding: 16px 10px;
+  background: #fff;
+}
+
+#header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.header_nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.header_nav ul li {
+  list-style: none;
+}
+
+.header_nav ul li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.header_nav ul li a:hover {
+  color: #469165;
+}
+/* ============ HEADER ENDS ============ */
