@@ -95,6 +95,7 @@ img {
   font-size: 16px;
   font-weight: 400;
   color: #627382;
+  line-height: 22px;
 }
 /* ============ COMMON STYLES END ============ */
 
@@ -336,3 +337,40 @@ img {
   background-repeat: no-repeat;
 }
 /* ============ SECOND BRAIN SECTION ENDS ============ */
+
+/* ============ EARLY ACCESS SECTION STARTS ============ */
+#early-access {
+  background: #fff;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.early-access_content {
+  background-color: rgba(247, 246, 242, 1);
+  padding: 80px 40px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.early-access_content .section-title {
+  margin: 0px 0px;
+}
+
+.early-access_content .section-description {
+  width: 100%;
+  max-width: 580px;
+}
+
+.early-access_content .button-primary {
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 8px;
+}
+
+.early-access_perks {
+  color: #627382;
+}
+/* ============ EARLY ACCESS SECTION ENDS ============ */
