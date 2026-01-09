@@ -392,7 +392,6 @@ img {
   flex-wrap: wrap;
   color: #fff;
   padding-bottom: 80px;
-  border-bottom: 1px solid #2e4256;
 }
 
 .footer-socials span {
@@ -432,6 +431,12 @@ img {
 .footer-socials .links a:nth-child(3):hover {
   background-color: #2d3891;
   color: #fff;
+}
+
+#footer hr {
+  border: none;
+  height: 1px;
+  background-color: #2e4256;
 }
 
 .copyright-text {
